@@ -34,7 +34,7 @@ Scores by School Size & School Type
 For these sections, I followed very similar steps to the previous section, however, I did not have to replace any special characters and there were no major bugs in my code. First, I utilized the bins and labels from the starter code and categorized the spending based on the 'Total Students' column of the DataFrame. I used pd.cut to accomplish this, and once the per_school_summary was created, I could calculate the average for the School Size and School Type and create new DataFrames.
 
 *For these sections, I worked with fellow bootcamp member, Kimberly Reitama.
-**For these sections, I worked with fellow bootcamp member, Saroja Suresh.
+**For these sections, I worked with fellow bootcamp member, Saroja Shrestha.
 
 Conclusion
 
