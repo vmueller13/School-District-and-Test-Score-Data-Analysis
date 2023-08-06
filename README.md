@@ -11,6 +11,10 @@ In order to complete the deliverables, I aggregated the data to showcase obvious
 *District, School and Test Score Analysis*
 First, I used `nunique` to count the total number of schools in the in the `school_name` column and the `len` function to determine the total number of students. Next, I used `.mean` to calculate the mean of the reading and math scores and passed this data into a new DataFrame. The next part of the deliverable asked me to calculate the counts for school summary, after calculating the student count, budget, aveage math & reading scores per school, I looked at all the schools with math scores and reading scores of 70 or higher(in separate outputs) in order to see the individual schools close to an acceptable success rate. I concluded my analysis by creating summary tables for math or reading scores by grade.
 
+![score_by_size](score_by_size.png)
+
+![score_by_type](score_by_type.png)
+
 *Spending Analysis*
 For this section of the deliverable, I utilized the "Per Student Budget" column in order categorize the spending based on the bins which gave the spending ranges per student. I calculated the math, reading, overall and % passing averages for the 'Spending Ranges Per Student' column and assembled the data into a data frame. I used 'pd.cut' to accomplish these tasks, and once the per_school_summary was created, I could calculate the average for the School Size and School Type and create new DataFrames.
 
