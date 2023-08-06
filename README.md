@@ -1,10 +1,14 @@
 # Module 4 Challenge: Data Analysis with Python
 
 <ins>Project Overview</ins>
+-----
+
 
 This project analyzed the school and district-wide standardized test results to help the school board and mayor make strategic decisions regarding future school budgets and priorities. I was given access to every student's math and reading scores, as well as various information on the schools they attend.
 
 <ins>Processes and Technologies</ins>
+-----
+
 
 In order to complete the deliverables, I aggregated the data to showcase obvious trends in school performance py creating and manipulating Pandas DataFrames.
 
@@ -19,6 +23,8 @@ First, I used `nunique` to count the total number of schools in the in the `scho
 For this section of the deliverable, I utilized the "Per Student Budget" column in order categorize the spending based on the bins which gave the spending ranges per student. I calculated the math, reading, overall and % passing averages for the 'Spending Ranges Per Student' column and assembled the data into a data frame. I used 'pd.cut' to accomplish these tasks, and once the per_school_summary was created, I could calculate the average for the School Size and School Type and create new DataFrames.
 
 <ins>Conclusions</ins>
+-----
+
 
 From the sections on the lowest performing schools and highest performing schools, I was able to make several interesting conclusions and comparisions. First, these showed that 80% of the top ten performing schools were all charters and 70% of the lowest performing schools were all districts. This might have been the data that was expected by school type, but upon further analysis, the school type is not necessarily what determined the passing rates. 
 While the per student spending is very similar for the charters and the districts, 87% of charters were categorized as small or medium schools while 100% of the districts were categorized as large schools. Additionally, even though both school types spent similar amounts per student, the small and medium sized schools (both charter and district) consistently showed a higher achievement and overall passing rate.
